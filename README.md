@@ -26,6 +26,7 @@ This is a basic implementation of PDO to make database connection and querying a
 			}
 		}
 	?>
+````
 	
 ## Methods Calls: *Copy the below method code.*
 
@@ -53,6 +54,7 @@ This is a basic implementation of PDO to make database connection and querying a
 		$result = $db->num_rows_affected($result);
 	?>
 
+````
 
 #### Fetch Data - Gets the data from the Result. 
 *(This is not needed for insert, update and delete.)*
@@ -95,6 +97,8 @@ This is a basic implementation of PDO to make database connection and querying a
 		#	column names returned in your result set
 		$data = $db->fetch_object($result);
 	?>
+
+````
 	
 #### Other
 
@@ -104,7 +108,8 @@ This is a basic implementation of PDO to make database connection and querying a
 		# Last Insert ID
 		$id = $db->last_insert_id($var = FALSE);
 	?>
-
+	
+````
 
 <link rel="stylesheet" title="Monokai Sublime" href="styles/monokai_sublime.css">
 <script src="highlight.pack.js"></script>
