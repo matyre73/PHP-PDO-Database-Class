@@ -8,10 +8,9 @@ This is a basic implementation of PDO to make database connection and querying a
 
 ## Create Instance: *Copy the below code.*
 
-##### Database Settings
-
 ````php
 	
+	# Database Settings
 	define("DB_HOSTNAME", "localhost");
    	define("DB_USERNAME", "root");
    	define("DB_PASSWORD", "");
