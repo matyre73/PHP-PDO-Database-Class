@@ -85,8 +85,8 @@ This is a basic implementation of PDO to make database connection and querying a
 
 	# Last Insert ID
 	$id = $db->last_insert_id($var = FALSE);
-
+```html	
 <link rel="stylesheet" title="Monokai Sublime" href="styles/monokai_sublime.css">
 <script src="highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
-
+```
