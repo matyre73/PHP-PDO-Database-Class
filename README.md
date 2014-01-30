@@ -6,7 +6,7 @@ This is a basic implementation of PDO to make database connection and querying a
 ###### AUTHOR : **Wade Dunbar**
 ##### version: 1.0
 
-## Create Instance: *Copy the below code.*
+### Create Instance: *Copy the below code.*
 
 ````php
 	
@@ -26,9 +26,9 @@ This is a basic implementation of PDO to make database connection and querying a
 
 ````
 	
-## Methods Calls: *Copy the below method code.*
+### Methods Calls: *Copy the below method code.*
 
-#### Query Functions - Add Show for the query to be outputted.
+##### Query Functions - Add Show for the query to be outputted.
 
 ````php
 
@@ -52,7 +52,7 @@ This is a basic implementation of PDO to make database connection and querying a
 
 ````
 
-#### Fetch Data - Gets the data from the Result. 
+##### Fetch Data - Gets the data from the Result. 
 *(This is not needed for insert, update and delete.)*
 
 ````php
@@ -94,7 +94,7 @@ This is a basic implementation of PDO to make database connection and querying a
 
 ````
 	
-#### Other
+##### Other
 
 ````php
 
