@@ -25,7 +25,6 @@ This is a basic implementation of PDO to make database connection and querying a
 		}
 	}
 
-
 ````
 	
 ## Methods Calls: *Copy the below method code.*
