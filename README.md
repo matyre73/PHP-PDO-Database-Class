@@ -6,7 +6,7 @@ This is a basic implementation of PDO to make database connection and querying a
 ###### AUTHOR : **Wade Dunbar**
 ##### version: 1.0
 
-## Create Instance: (Copy the below code.)
+## Create Instance: *Copy the below code.*
 
 ##### Database Settings
     define("DB_HOSTNAME", "localhost");
@@ -22,7 +22,7 @@ This is a basic implementation of PDO to make database connection and querying a
 		}
 	}
 	
-## Methods Calls: (Copy the below method code.)
+## Methods Calls: *Copy the below method code.*
 
 #### Query Functions - Add Show for the query to be outputted.
 
@@ -44,7 +44,8 @@ This is a basic implementation of PDO to make database connection and querying a
 	# Num Rows Affected
 	$result = $db->num_rows_affected($result);
 
-#### Fetch Data - Gets the data from the Result. This is not needed for insert, update and delete.
+#### Fetch Data - Gets the data from the Result. 
+*(This is not needed for insert, update and delete.)*
 
 	# Fetch Data into an array
 	# - Default uses FETCH ASSOC
