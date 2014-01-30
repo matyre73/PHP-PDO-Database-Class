@@ -9,10 +9,10 @@ This is a basic implementation of PDO to make database connection and querying a
 ## Create Instance: (Copy the below code.)
 
 ##### Database Settings
-    define("DB_HOSTNAME", "localhost");<br>
-    define("DB_USERNAME", "root");<br>
-    define("DB_PASSWORD", "");<br>
-    define("DB_DATABASE", "database");<br>
+    define("DB_HOSTNAME", "localhost");
+    define("DB_USERNAME", "root");
+    define("DB_PASSWORD", "");
+    define("DB_DATABASE", "database");
 
     if(DB_HOSTNAME != ""){
     	include("db.class.php");
