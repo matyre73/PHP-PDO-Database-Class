@@ -9,7 +9,8 @@ This is a basic implementation of PDO to make database connection and querying a
 ## Create Instance: *Copy the below code.*
 
 ##### Database Settings
-    define("DB_HOSTNAME", "localhost");
+````
+	define("DB_HOSTNAME", "localhost");
     define("DB_USERNAME", "root");
     define("DB_PASSWORD", "");
     define("DB_DATABASE", "database");
@@ -21,11 +22,11 @@ This is a basic implementation of PDO to make database connection and querying a
 			$db = new db(DB_HOSTNAME, DB_USERNAME, DB_PASSWORD, DB_DATABASE);
 		}
 	}
-	
+````	
 ## Methods Calls: *Copy the below method code.*
 
 #### Query Functions - Add Show for the query to be outputted.
-
+````
 	# Run Basic Query
 	$result = $db->query("SELECT * FROM Table");
 
@@ -43,10 +44,12 @@ This is a basic implementation of PDO to make database connection and querying a
 
 	# Num Rows Affected
 	$result = $db->num_rows_affected($result);
+````
 
 #### Fetch Data - Gets the data from the Result. 
 *(This is not needed for insert, update and delete.)*
 
+````
 	# Fetch Data into an array
 	# - Default uses FETCH ASSOC
 	$data = $db->fetch_array($result);
@@ -81,12 +84,13 @@ This is a basic implementation of PDO to make database connection and querying a
 	# - PDO::FETCH_OBJ: returns an anonymous object with property names that correspond to the 
 	#	column names returned in your result set
 	$data = $db->fetch_object($result);
-	
+````	
 #### Other
 
+````
 	# Last Insert ID
 	$id = $db->last_insert_id($var = FALSE);
-	
+````
 <link rel="stylesheet" title="Monokai Sublime" href="styles/monokai_sublime.css">
 <script src="highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
