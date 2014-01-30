@@ -110,7 +110,3 @@ This is a basic implementation of PDO to make database connection and querying a
 	?>
 	
 ````
-
-<link rel="stylesheet" title="Monokai Sublime" href="styles/monokai_sublime.css">
-<script src="highlight.pack.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
