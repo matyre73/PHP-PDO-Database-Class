@@ -3,8 +3,8 @@ PHP:PDO Database Class
 
 This is a basic implementation of PDO to make database connection and querying a database easy.
 
-**AUTHOR :** *Wade Dunbar* <br>
-**VERSION:** *1.0*
+**AUTHOR :** Wade Dunbar <br>
+**VERSION:** 1.0
 
 ### Create Instance: *Copy the below code.*
 
