@@ -17,7 +17,7 @@
 		include("db.class.php");
 
 		if(class_exists("db")){
-			$db = new db(DB_HOSTNAME, DB_USERNAME, DB_PASSWORD, DB_DATABASE);		
+			$db = new db(array("hostname" => DB_HOSTNAME, "username" => DB_USERNAME, "password" => DB_PASSWORD, "database" => DB_DATABASE));
 		}
 	}
 
